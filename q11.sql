@@ -4,3 +4,4 @@
 ## 2018
 ##
 
+SELECT  substr(c14,1,4) as YEAR, count(1) as CANT  FROM tbl1 WHERE substr(c14,1,4) = '2018' group by substr(c14,1,4)

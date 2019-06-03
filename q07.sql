@@ -5,4 +5,4 @@
 ## de 200 y 900
 ##
 
-
+SELECT * FROM tbl1 WHERE k0 <> 'A' AND K0 <>'B' AND c13 <> 200 AND c13 <> 900 ORDER BY c14
